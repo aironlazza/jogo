@@ -1,0 +1,185 @@
+{
+    "plataformas":
+    [
+        {
+            "textura":"chao1",
+            "pos":
+            {
+                "x":0,
+                "y":368
+            },
+            "dimensoes":
+            {
+                "largura": 196,
+                "altura": 32
+            },
+            "origem":
+            {
+                "x":0,
+                "y":0,
+
+                "largura": 196,
+                "altura": 32
+            }
+        },
+        {
+            "textura":"chao1",
+            "pos":
+            {
+                "x":100,
+                "y":250
+            },
+            "dimensoes":
+            {
+                "largura": 196,
+                "altura": 32
+            },
+            "origem":
+            {
+                "x":0,
+                "y":0,
+
+                "largura": 196,
+                "altura": 32
+            }
+            
+        },
+        {
+            "textura":"chao1",
+            "pos":
+            {
+                "x":196,
+                "y":368
+            },
+            "dimensoes":
+            {
+                "largura": 196,
+                "altura": 32
+            },
+            "origem":
+            {
+                "x":0,
+                "y":0,
+
+                "largura": 196,
+                "altura": 32
+            }
+        },
+        {
+            "textura":"chao1",
+            "pos":
+            {
+                "x":196,
+                "y":336
+            },
+            "dimensoes":
+            {
+                "largura": 196,
+                "altura": 32
+            },
+            "origem":
+            {
+                "x":0,
+                "y":0,
+
+                "largura": 196,
+                "altura": 32
+            }
+        }
+    ],
+    "fundos":
+    [
+        {
+            "textura":"fundo1",
+            "pos":
+            {
+                "x":0,
+                "y":0
+            },
+            "dimensoes":
+            {
+                "largura": 800,
+                "altura": 400
+            },
+            "origem":
+            {
+                "x":0,
+                "y":0,
+
+                "largura": 384,
+                "altura": 216
+            }
+        }
+    ],
+    "meios":
+    [
+        {
+            "textura":"meio1",
+            "pos":
+            {
+                "x":-50,
+                "y":50
+            },
+            "dimensoes":
+            {
+                "largura": 800,
+                "altura": 400
+            },
+            "origem":
+            {
+                "x":0,
+                "y":0,
+
+                "largura": 384,
+                "altura": 216
+            }
+        },
+        {
+            "textura":"meio1",
+            "pos":
+            {
+                "x":750,
+                "y":50
+            },
+            "dimensoes":
+            {
+                "largura": 800,
+                "altura": 400
+            },
+            "origem":
+            {
+                "x":0,
+                "y":0,
+
+                "largura": 384,
+                "altura": 216
+            }
+        }
+    ],
+    "cenarios":
+    [
+        {
+            "textura":"cenario1",
+            "pos":
+            {
+                "x":30,
+                "y":221
+            },
+            "dimensoes":
+            {
+                "largura": 65,
+                "altura": 147
+            },
+            "origem":
+            {
+                "x":24,
+                "y":12,
+
+                "largura": 65,
+                "altura": 147
+            }
+        }
+    ],
+
+    "fim":600
+}
