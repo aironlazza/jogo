@@ -435,9 +435,10 @@ function animar()
 
         if( //direita pra esquerda
             jogador.pos.x >= plataforma.pos.x + plataforma.largura &&
-            jogador.pos.x + jogador.vel.x + jogador.largura <= plataforma.pos.x &&
+            jogador.pos.x - velocidadePixel <= plataforma.pos.x + plataforma.largura &&
             jogador.pos.y + jogador.altura >= plataforma.pos.y &&
-            jogador.pos.y <= plataforma.pos.y + plataforma.altura
+            jogador.pos.y <= plataforma.pos.y + plataforma.altura &&
+            teclas.esquerda
         )
         {
             ultimaPosY = jogador.pos.y;
