@@ -27,7 +27,7 @@
             "pos":
             {
                 "x":100,
-                "y":250
+                "y":200
             },
             "dimensoes":
             {
@@ -98,7 +98,7 @@
             },
             "dimensoes":
             {
-                "largura": 800,
+                "largura": 600,
                 "altura": 400
             },
             "origem":
