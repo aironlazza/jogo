@@ -397,7 +397,7 @@ window.addEventListener('keyup',evento=>{
     }   
 });
 
-
+//variáveis menu
 
 let larg;
 let alt;
@@ -408,17 +408,27 @@ let half;
 let opacidadeChi;
 let opacidadeQue;
 
+let botaoJogar
+
 function iniciarMenu()
 {
 
-     larg = 600;
-     alt = 400;
-     xis=0;
-     yps = 0;
-     i = 0;
-     half = 0.005;
-     opacidadeChi = 0.05;
-     opacidadeQue = 0.05;
+    larg = 600;
+    alt = 400;
+    xis=0;
+    yps = 0;
+    i = 0;
+    half = 0.005;
+    opacidadeChi = 0.05;
+    opacidadeQue = 0.05;
+
+    botaoJogar = 
+    {
+        x: 210,
+        y: 500,
+        largura: 180,
+        altura:60
+    }
 }
 
 iniciarMenu()
@@ -610,8 +620,28 @@ function animar()
         if(opacidadeQue<1) opacidadeQue += 0.01;
     }
 
-    i++;
     
+    if(i>540)
+    {
+        if(botaoJogar.y > 180) botaoJogar.y = botaoJogar.y - 10;
+
+        contexto.beginPath();
+        contexto.roundRect(botaoJogar.x,botaoJogar.y,botaoJogar.largura,botaoJogar.altura, 40);
+        contexto.fillStyle = '#00796B';
+        contexto.fill();
+
+        contexto.lineWidth = 4;
+        contexto.strokeStyle = '#E0F2F1';
+        contexto.stroke();
+        
+        contexto.font = '50px pixelada'
+        contexto.fillStyle = '#E0F2F1';
+        contexto.fillText('Jogar', botaoJogar.x + botaoJogar.largura / 4 + 9, botaoJogar.y + botaoJogar.altura * 0.66)
+    }
+
+    
+
+    i++;
 }
 
 animar();
