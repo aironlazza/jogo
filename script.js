@@ -514,11 +514,11 @@ class Butias{
 
         this.sprites = 
         [
-            '/img/butia-sumindo.png',
-            '/img/butia.png'
+            './img/butia-sumindo.png',
+            './img/butia.png'
         ]
         this.imagem = new Image();
-        this.imagem.src = '/img/butia.png';
+        this.imagem.src = './img/butia.png';
         this.frames = 0;
         this.ativo = true;
 

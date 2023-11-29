@@ -24,21 +24,15 @@ body{
     background-color: bisque;
 }
 .corpo{
-    display: inline-flex;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
 }
-.ajuda{
-    width: 5vw;
-    height: 5vw;
-    margin-left: 10vw;
-    margin-top: 10vw;
-}
-.ajuda:hover{
-    display: block;
-    flex: 2vw;
-}
+
+
 #tela{
     margin-top: 5vw;
-    margin-left: 5vw;
     height: 40vw;
     width: 60vw;
 }
