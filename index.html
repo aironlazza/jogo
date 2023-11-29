@@ -1,18 +1,55 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
+<html lang="pt">
+    <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Airon Lazzaretti" />
-    <meta name="description" content="Jogo de plataforma desenvolvido usando JavaScript." />
-    <meta name="keywords" content="Jogo, game, videogame, plataformer, javascript, gaúcho" />
-
+    <meta name="author" content="Airon Lazzaretti, Arthur Henrique Wallauer Bohrer, Marcelo Rangel Barros, Murilo Stein Dalla Palma">
+    <meta name="description" content="Jogo do gaúcho">
+    <meta name="keywords" content="Jogo, Gaúcho">
+    <meta name="rating" content="general">
+    <title>Chimarrão Quest</title>
     <link rel="stylesheet" href="style.css">
-    
-    <title>Jogo</title>
 </head>
+    <header>
+        <div class="cabeçalho">
+            <a href=""><img id="logo" src="img/logo.png" alt="Logo: Chimarrão"></a>
+            <a href="" class="menu">CHIMARRÃO QUEST</a>
+        </div>
+    </header>
 <body>
-    <canvas id="tela" width="600" height="400"></canvas>
-    <script type="module" src="script.js"></script>
+    <div class="corpo">
+        <img class="ajuda" src="img/ajuda.png" alt="ajuda">
+        <canvas id="tela" width="600" height="400"></canvas>
+    </div>
 </body>
+<footer>
+    <div class="container">
+        <ul>
+            <h3>Chimarrão Quest</h3>
+            <p>Chimarrão Quest é um jogo no estilo plataforma utilizando elementos que remetem ao Rio Grande do Sul</p>
+            <div class="redes_sociais">
+                <img src="img/face.png" alt="Logo facebook">
+                <img src="img/insta-removebg-preview.png" alt="Logo Instagram">
+            </div>
+        </ul>
+        <ul>
+            <h3>Link</h3>
+            <li><a href="#">Jogo</a></li>
+            <li><a href="#">Sobre</a></li>
+        </ul>
+        <ul>
+            <h3>Suporte</h3>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Faq</a></li>
+        </ul>
+        <ul>
+            <h3>Nos contate</h3>
+            <p>55 51 91234-5678</p>
+            <p>chimarraoquest@gmail.com</p>
+            <p>Brasil</p>
+        </ul>
+    </div>
+</footer>
+<script type="module" src="script.js"></script>
 </html>
