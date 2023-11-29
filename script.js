@@ -781,6 +781,7 @@ window.addEventListener('keydown',evento=>{
     {
         case 32: //espaço
         case 87: // W
+            evento.preventDefault();
             // console.log("jump press");
             if(jogador.vel.y == 0)
             {
